@@ -8,8 +8,10 @@ Clone this project.
 
     git clone https://github.com/malios/first-commit
 
-Navigate to [chrome://extensions/](chrome://extensions/)
+Navigate to [chrome://extensions](chrome://extensions)
+
 Check `Developer mode` checkbox on extensions tab.
+
 Click `Load unpacked extension` button and upload the project files.
 
 ## Usage
