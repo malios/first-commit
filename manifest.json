@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Github First Commit",
+  "description": "Navigate to first commit of a github project",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://github.com/*",
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://github.com/*",
+        "https://github.com/*"
+      ],
+      "js": ["content-script.js"]
+    }
+  ]
+}
